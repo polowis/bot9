@@ -9,6 +9,6 @@ module.exports.run = async(bot, message, args) =>{
         .setTitle(`#${hex}`)
         message.channel.send(embed);
     } catch(err){
-        message.channel.send("An error has occured")
+        message.channel.send("An error has occured");
     }
 }
