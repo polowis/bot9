@@ -187,8 +187,8 @@ bot.on("message", async message =>{
     }
     
     const prefix = guildPrefix[0].prefix */
-
     //let gprefix = ''
+    
     if(message.channel.type == "dm") return
     Guild.findOne({
         serverID: message.guild.id
