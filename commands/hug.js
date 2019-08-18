@@ -6,6 +6,7 @@ module.exports.run = async(bot, message, args) =>{
         const body = await fetch('https://nekos.life/api/hug').then(res.json())
         const embed = new Discord.RichEmbed()
         .setImage(body.url)
+        message.channel.send(embed);
     } catch(err){
         message.reply('Error..')
     }
