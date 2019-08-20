@@ -9,7 +9,7 @@
 ## Clone this repo
 
 
-## Run Install dependencies
+## Install dependencies
 ```sh
 $ npm install
 ```
