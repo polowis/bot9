@@ -1,4 +1,4 @@
-[![dependecies](https://img.shields.io/david/polowis/bot9?style=plastic)](/package.json)
+[![dependecies](https://img.shields.io/david/polowis/bot9?style=plastic)](/package.json) [![version](https://img.shields.io/github/package-json/v/polowis/bot9?style=plastic)](/package.json)
 
 # pooh9
 
