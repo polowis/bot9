@@ -19,7 +19,7 @@
     "ffmpeg": "0.0.4",
     "kitsu": "^7.0.4",
     "math.js": "^1.1.43",
-    "mongoose": "^5.6.4",
+    "mongoose": "^5.7.5",
     "node-fetch": "^2.6.0",
     "node-nlp": "^3.2.0",
     "node-opus": "^0.3.2",
