@@ -2,11 +2,13 @@
 
 # pooh9
 
+Template to make Discord bot
+
 ## Requirement
 
 1. Nodejs
 2. MongoDB
-3. API_KEY
+3. Discord API_KEY
 
 ## Clone this repo
 
