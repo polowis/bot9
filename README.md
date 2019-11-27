@@ -9,6 +9,7 @@ Template to make Discord bot
 1. Nodejs
 2. MongoDB
 3. Discord API_KEY
+4. Redis (for better performance)
 
 ## Clone this repo
 
