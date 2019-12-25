@@ -17,7 +17,7 @@
     "express": "^4.17.1",
     "express-generator": "^4.16.1",
     "ffmpeg": "0.0.4",
-    "kitsu": "^7.0.4",
+    "kitsu": "^0.0.2",
     "math.js": "^1.1.43",
     "mongoose": "^5.7.5",
     "node-fetch": "^2.6.0",
