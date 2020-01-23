@@ -62,4 +62,6 @@ typings/
 .DS_Store
 config.json
 guild.json
+test.js
+model.nlp
 

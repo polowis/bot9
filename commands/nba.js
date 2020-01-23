@@ -21,7 +21,7 @@ module.exports.run = async (bot, message, args) =>{
 
     const msg = await message.channel.send('Proccessing your request, please wait.. \n this will take a while')
 
-    const body = await fetch(`http://data.nba.net/10s/prod/v2/${year}/players.json`).then(res => res.json())
+    const body = await fetch(`http://data.nba.net/10s/prod/v2/2019/players.json`).then(res => res.json())
     const data = body.league.standard;
     
     const players = data.filter(player => player.firstName.toLowerCase() === firstName && player.lastName.toLowerCase() === lastName)
@@ -47,7 +47,7 @@ module.exports.run = async (bot, message, args) =>{
 
             
 
-            const request = await fetch(`http://data.nba.net/prod/v1/${year}/players/${playerId}_profile.json`).then(res => res.json())
+            const request = await fetch(`http://data.nba.net/prod/v1/2019/players/${playerId}_profile.json`).then(res => res.json())
            
            const career = request.league.standard.stats.careerSummary
            
@@ -66,7 +66,7 @@ module.exports.run = async (bot, message, args) =>{
             const steals = career.steals;
             const reb = career.totReb;
 
-            const teamRequest = await fetch(`http://data.nba.net/prod/v2/${year}/teams.json`).then(res => res.json())
+            const teamRequest = await fetch(`http://data.nba.net/prod/v2/2019/teams.json`).then(res => res.json())
             //console.log(teamRequest.league.standard)
             const teamsNBA = teamRequest.league.standard
             

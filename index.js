@@ -1,19 +1,12 @@
 const Discord = require("discord.js")
 const mongoose = require("mongoose")
-const config = require('./config.json')
 const Money = require('./models/money')
 const Chat = require('./models/chatpoints')
 const Guild = require('./models/prefix')
 const fs = require('fs')
-const fileprefix = require('./guild.json')
-const olddata = fs.readFileSync('./guild.json', 'utf-8')
-const data = JSON.parse(olddata)
-const redis = require('redis')
+require('dotenv').config();
 const { NlpManager } = require('node-nlp');
-//const trainnlp = require('./assets/data/data');
 const trainnlp = require('./assets/data/data');
-//const client = redis.createClient()
-
 var bot = new Discord.Client()
 
 
@@ -25,9 +18,9 @@ let banse = new Set()
 
 const talkRecently = new Set()
 
-clever.setNick("session")
 
-mongoose.connect(config.mongoDB, {useNewUrlParser: true}, err =>{
+
+mongoose.connect(process.env.mongoDB, {useNewUrlParser: true}, err =>{
     if (err) return console.log(err)
     console.log("Connected to mongo")
 })
@@ -102,8 +95,6 @@ function generatePoint(min, max){
 bot.once("ready", function(){
     console.log("I am ready")
     bot.user.setActivity("google with polowis", {type: "PLAYING"})
-    console.log(Date.now())
-    console.log(Date.now() + 86400000)
 })
 
 bot.on("disconnect", function(){
@@ -189,6 +180,7 @@ bot.on("message", async message =>{
     const prefix = guildPrefix[0].prefix */
     //let gprefix = ''
     
+
     if(message.channel.type == "dm") return
     Guild.findOne({
         serverID: message.guild.id
@@ -232,6 +224,7 @@ bot.on("message", async message =>{
         'message': message.content,
         'author': message.author.id
     })
+
 
     let messageMatch = 0;
     for (let i = 0; i < messageLog.length; i ++){
@@ -408,13 +401,13 @@ bot.on("message", async message =>{
 
     try{
         let commandFile = require(`./commands/${command}.js`)
-        commandFile.run(bot, message, args, config)
+        commandFile.run(bot, message, args)
     } catch(err){
         return
     }
 })
 
-bot.login(config.token)
+bot.login(process.env.token)
 
 process.on('unhandledRejection', (err) =>{
     console.log(err)
