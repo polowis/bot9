@@ -10,6 +10,14 @@
     "serve": "nodemon index.js",
     "web": "node ./dashboard/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polowis/bot9.git"
+  },
+  "bugs": {
+    "url": "https://github.com/polowis/bot9/issues"
+  },
+  "homepage": "https://github.com/polowis/bot9#readme",
   "author": "polowis",
   "license": "MIT",
   "dependencies": {
