@@ -7,7 +7,8 @@
     "test": "node test",
     "start": "node index.js",
     "development": "SET NODE_ENV=development",
-    "serve": "nodemon index.js"
+    "serve": "nodemon index.js",
+    "web": "node ./dashboard/index.js"
   },
   "author": "polowis",
   "license": "MIT",
@@ -17,6 +18,8 @@
     "express": "^4.17.1",
     "express-generator": "^4.16.1",
     "ffmpeg": "0.0.4",
+    "handlebars": "^4.7.2",
+    "hbs": "^4.1.0",
     "kitsu": "^8.0.2",
     "math.js": "^1.1.43",
     "mongoose": "^5.7.5",
