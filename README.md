@@ -57,7 +57,7 @@ This command will start and build the web dashboard interface. Go to `localhost:
 ## Running the bot
 Execute one of these commands to run the bot:
 
-This command automatically restart the bot when file changes in the directory are detected (Highly recommended). **Just be aware of abusing the API, discord might ask you to change your API key if the bot keeps restarting multipe times in a short period. **
+This command automatically restart the bot when file changes in the directory are detected (Highly recommended). **Just be aware of abusing the API, discord might ask you to change your API key if the bot keeps restarting multipe times in a short period.**
 
 ```bash
 $ npm run serve
