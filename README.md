@@ -18,7 +18,7 @@ In order to work on this project on your machine, you can follow the instruction
 2. Open your terminal and `cd` to your `~/your_folder` folder
 3. Clone your fork into the `~/your_folder` folder, by running the following command *replace your username into {your_username} slot*:
     ```bash
-    git clone git@github.com:{your_username}/bot9 laravel
+    git clone git@github.com:{your_username}/bot9 
     ```
 4. CD into the new directory you just created:
     ```bash
