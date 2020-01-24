@@ -54,5 +54,20 @@ $ npm run web
 
 This command will start and build the web dashboard interface. Go to `localhost:3001` to see this in action! (You will need your discord api key in order to gain access)
 
+### Running the bot
+Execute one of these commands to run the bot:
+
+This command automatically restart the bot when file changes in the directory are detected (Highly recommended). **Just be aware of abusing the API, discord might ask you to change your API key if the bot keeps restarting multipe times in a short period. 
+
+```bash
+$ npm run serve
+```
+
+You will need to run this command again if you makes changes to the bot (Not recommended)
+
+```bash
+$ npm start
+```
+
 ## Documentation
  
