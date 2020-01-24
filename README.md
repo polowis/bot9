@@ -34,5 +34,25 @@ In order to work on this project on your machine, you can follow the instruction
     ./bin/setup.sh
     ```
 
+
+## Configuration
+
+### Discord API Key
+You may pass your discord api key in `.env` file according to the setup. This key is important and should never be allowed to display publicly. 
+
+### MongoDB
+You may also wish to enter your MongoDB URL in `.env` file. In case you have no idea how to configure your mongoDB, you can try MongoDB Atlas for free (https://www.mongodb.com/cloud/atlas)
+
+The URL might looks something like this `mongodb://localhost/test`. Where test is our database name running locally. 
+
+### Web Dashboard
+
+If you wish to visually manage your bot, don't worry. You can run 
+``` bash
+$ npm run web
+```
+
+This command will start and build the web dashboard interface. Go to `localhost:3001` to see this in action! (You will need your discord api key in order to gain access)
+
 ## Documentation
  
