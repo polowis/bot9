@@ -52,7 +52,7 @@ If you wish to visually manage your bot, don't worry. You can run
 $ npm run web
 ```
 
-This command will start and build the web dashboard interface. Go to `localhost:3001` to see this in action! (You will need your discord api key in order to gain access)
+This command will start and build the web dashboard interface. Go to `localhost:3001` to see this in action! (You will be asked for your discord api key in order to gain access)
 
 ## Running the bot
 Execute one of these commands to run the bot:
