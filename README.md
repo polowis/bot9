@@ -73,10 +73,14 @@ $ npm start
 
 ### Commands
 
+**Note: prefix must go before command name. And arguments must be seperated from command name with a space**
+</br>
 #### 8ball 
 
 ```8ball <question>?```</br>
-Think of a question that can be answered `yes` or `no`. And write it next the command. `8ball Am I a good person?`
+Think of a question that can be answered `yes` or `no`. And write it next the command. </br>
+For example: </br>
+`8ball Am I a good person?`
  
 #### anime
 
@@ -93,5 +97,22 @@ This command allow you to ban a mentioned user
 
 This command does not take any argument and return random bunny's pic. 
 
+#### catfact
+```catfact``` </br>
 
+This command does not take any argument and return random cat's fact. 
+
+#### daily
+```daily``` </br>
+
+This command does not take any argument, it gives out a random amount of coins and saves to your account. You can only do this once for every 24 hours. 
+
+- tips: you can expand the use of coins. 
+
+#### danboruu @nsfw
+```danboruu```</br>
+
+This command does not take any argument. It displays a random nsfw picture. Make sure you run this command in #nsfw channel. </br>
+
+- Exclude categories: ```["loli", "shota", "cub", "young", "guro", "gore"]```
 
