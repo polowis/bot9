@@ -68,28 +68,28 @@ You will need to run this command again if you makes changes to the bot (Not rec
 ```bash
 $ npm start
 ```
-\
+</br>
 ## Documentation
 
 ### Commands
 
 #### 8ball 
 
-```8ball <question>?```\
+```8ball <question>?```</br>
 Think of a question that can be answered `yes` or `no`. And write it next the command. `8ball Am I a good person?`
  
 #### anime
 
-```anime <anime_name>```\
+```anime <anime_name>```</br>
 This command allow you to search for the anime name and display the information
 
 #### ban
-```ban <@user>```\
+```ban <@user>```</br>
 
 This command allow you to ban a mentioned user
 
 #### bunny
-```bunny```\
+```bunny```</br>
 
 This command does not take any argument and return random bunny's pic. 
 
