@@ -70,4 +70,28 @@ $ npm start
 ```
 
 ## Documentation
+
+### Commands
+
+#### 8ball 
+
+```8ball <question>?```
+Think of a question that can be answered `yes` or `no`. And write it next the command. `8ball Am I a good person?`
  
+#### anime
+
+```anime <anime_name>```
+This command allow you to search for the anime name and display the information
+
+#### ban
+```ban <@user>```
+
+This command allow you to ban a mentioned user
+
+#### bunny
+```bunny```
+
+This command does not take any argument and return random bunny's pic. 
+
+
+
