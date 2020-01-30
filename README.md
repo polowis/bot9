@@ -69,7 +69,7 @@ You will need to run this command again if you makes changes to the bot (Not rec
 $ npm start
 ```
 </br>
-## Documentation
+
 
 ### Commands
 
