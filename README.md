@@ -116,3 +116,7 @@ This command does not take any argument. It displays a random nsfw picture. Make
 
 - Exclude categories: ```["loli", "shota", "cub", "young", "guro", "gore"]```
 
+#### fact
+```fact```
+
+Return random facts
