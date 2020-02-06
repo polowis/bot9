@@ -119,4 +119,9 @@ This command does not take any argument. It displays a random nsfw picture. Make
 #### fact
 ```fact```
 
-Return random facts
+Return random facts <br>
+
+#### finduser
+```finduser {searchterm}```
+
+Find if user exists in the server
