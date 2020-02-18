@@ -125,3 +125,8 @@ Return random facts <br>
 ```finduser {searchterm}```
 
 Find if user exists in the server
+
+#### hbj @nsfw
+```hbj``` <br>
+This command does not take any argument. It displays a random nsfw picture. Make sure you run this command in #nsfw channel. </br>
+
