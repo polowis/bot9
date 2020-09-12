@@ -31,7 +31,7 @@
     "kitsu": "^8.0.2",
     "math.js": "^1.1.43",
     "mongoose": "^5.7.5",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "node-nlp": "^3.2.0",
     "node-opus": "^0.3.2",
     "pokedex-promise-v2": "^3.2.0",
